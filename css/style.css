@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.margin{
+    margin: 0px 150px;
+    margin-top: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0px;
+}
+.brandName{
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+}
+.home{
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+    margin-top: 5px;
+}
+.form{
+    margin-top: 5px;
+}
+
+h1{
+    margin-top: 25px; 
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    border-bottom: solid 1px red;
+}
+.container{
+    border: solid white 1px;
+    margin-top: 20px;
+}
+.note{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#notetxt{
+    font-size: 25px;
+}
+.addBtn{
+    color: green;
+    display: block;
+    margin-top: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color:black;
+    width: 100%;
+    padding:3px 8px;
+}
+h2{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.addBtn:hover{
+    background-color: white;
+    color: blue;
+    border-radius: 10px;
+    border: solid red 1px;
+    transition: all ease-in .2s;
+}
+.followheading{
+    font-size: 25px;
+}
+.heading{
+    margin-top: 10px;
+    font-size: 30px;
+    color:red;
+    display:inline-block ;
+    border-bottom: 1px solid white;
+}
+#obj{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px white;
+}
+.delete{
+    color: orange;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color:black;
+    
+}
+.done{
+    color: yellowgreen;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color:black;
+    
+}
+.buttons{
+    display: flex;
+}
+.delete:hover{
+    background-color: orange;
+    color:white;
+    border-radius: 5px;
+    border: solid red 1px;
+    transition: all ease-in .5s; 
+}
+.done:hover{
+    background-color:yellowgreen;
+    color: white;
+    border-radius: 5px;
+    border: solid red 1px;
+    transition: all ease-in .2s; 
+}
+.line{
+    width: 30px;
+    background-color: white;
+    height: 3px;
+    margin: 3px 3px;
+}
+.hambarger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+}
+/* social medial accout */
+.fab{
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 2px;
+    
+}
+.fa-facebook:hover{
+    background-color:  blue ;
+}
+.fa-instagram:hover{
+    background-color:  red ;
+}
+.fa-whatsapp:hover{
+    background-color:  green ;
+}
+.fa-github:hover{
+    border:  white 1px solid ;
+}
+.followheading{
+    color:orange;
+}
